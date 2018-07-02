@@ -4,7 +4,7 @@ import os
 import glob
 
 os.chdir("/export")
-# My test sankar
+# TRTRTRMy test sankar
 for file1 in glob.glob("*.json"):
     file_name = os.path.splitext(file1)[0]
     extension = os.path.splitext(file1)[1]
